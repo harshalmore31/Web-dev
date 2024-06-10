@@ -1,0 +1,17 @@
+/* 
+    display: inline-block;       // it will resemble in an horizontal line
+    display: block;              // it will resemble in a vertical line 
+
+
+    Centering with Margins
+
+img {
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+
+
+*/
