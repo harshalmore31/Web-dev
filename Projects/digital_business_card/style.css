@@ -31,7 +31,7 @@ img{
 }
 
 img:hover{
-    transform: scale(1.1);
+    transform: scale(1.1v);
     box-shadow: 4px 5px 6px #f95738;
 }
 .content{
