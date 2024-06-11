@@ -24,14 +24,19 @@
 
 
 body, html {
-    margin: 0;
-    padding: 10px;
+    margin: 5px;
+    padding: 2px;
     background: var(--background);
     color: var(--text);
     font-family: var(--font);
     margin-left: 24%;
     margin-right: 24%;
     margin-top: 2%;
+    width: 450px;
+}
+
+.list {
+    font-size: 18px;
 }
 
 img {
