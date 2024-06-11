@@ -47,10 +47,14 @@ input{
     border: 30px;
     padding: 11px;
     margin: 12px;
-    background-color: #f8f9fa;
     border-radius: 4px;
     padding-right: 16px;
     padding-left: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 1px 1px 1px rgba(29, 27, 27, 0.288)
 }
 
 .foot{
