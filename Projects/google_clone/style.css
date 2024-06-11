@@ -1,5 +1,5 @@
 .main {
-    
+    display: block;
 }
 
 .image {
@@ -13,33 +13,38 @@
 
 /* 584*6 */
 input{
-    width: 443px;
-    height: 46px;
-    border: none;
-}
-.inputm{
-    width: 584px;
-    line-height: 46px;
-    border: 2px solid black;
     display: block;
+    width: 428px;
+    line-height: 24px;
+    border: none;
     margin-left: auto;
     margin-right: auto;
-    padding: 28px;
+    margin-bottom: 8px;
+    margin-top: 0;
+    
+}
+.inputm{
+    display: block;
+    width: 482px;
+    line-height: 40px;
+    border: 1px solid #dadce0;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 11px;
-    padding-bottom: 8px;
     border-radius: 50px;
+    padding-bottom: 0px;
 }
 
 .btn-wrapper {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    padding: 2px;
+    padding: 20px;
 }
 
 .btn{
     border: 1px solid black;
-    padding: 2px;
+    
 }
 
 .foot{
