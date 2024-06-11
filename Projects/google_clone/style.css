@@ -1,0 +1,47 @@
+.main {
+    
+}
+
+.image {
+    display: block;
+    width: 292px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+/* 584*6 */
+input{
+    width: 443px;
+    height: 46px;
+    border: none;
+}
+.inputm{
+    width: 584px;
+    line-height: 46px;
+    border: 2px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 28px;
+    padding-top: 11px;
+    padding-bottom: 8px;
+    border-radius: 50px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 2px;
+}
+
+.btn{
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.foot{
+    margin-top: 30px;
+}

@@ -1,1 +1,1 @@
-## Projects are here !
+## Projects are here
