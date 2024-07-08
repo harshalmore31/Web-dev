@@ -1,6 +1,6 @@
 ## Front-End Developer
 
-<Web-dev_Basics>
-    Toggle Switch test
-</Web-dev_Basics>
+<details>
+    <summary>Web-dev Basics</summary>
+</details>
 
