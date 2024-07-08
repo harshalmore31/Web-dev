@@ -31,27 +31,29 @@ img{
 }
 
 img:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
     box-shadow: 4px 5px 6px #f95738;
 }
+
 .content{
     margin-top: 10px;
 }
+
 .center{
     text-align: center;
-    cursor: pointer;
     transition: 0.3s ease-in-out;
 }
 
 h3{
-    cursor: pointer;
     transition: 0.3s ease-in-out;
 }
 
 h3:hover{
-    box-shadow: 0px 2.8px 0px #f95738;
+    /* box-shadow: 0px 2.8px 0px #f95738; */
+    text-decoration: underline 2px red;
 }
 
 .center:hover{
     box-shadow: 0px 2.8px 0px #f95738;
 }
+
