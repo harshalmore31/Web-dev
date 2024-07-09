@@ -13,14 +13,14 @@
     <div class="main">
         <div class="cont container-1">
             <h1>People Entered : </h1>
-            <h2 class="points">0</h2>
+            <h2 id="points">0</h2>
         </div>
         <div class="cont container-2">
             <div class="btn-cont">
                 <button class="btn btn-1" onclick="increment()">Increment</button>
-                <button class="btn btn-2">Save</button>
+                <button class="btn btn-2" onclick="save()">Save</button>
             </div>
-            <p class="entry-el" onclick="save()">Previous Entries : </p>
+            <p id="entry-el">Previous Entries : </p>
         </div>
     </div>
     <script src="script.js"></script>

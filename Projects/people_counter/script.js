@@ -1,7 +1,7 @@
 let count = 0;
 
-let point = document.getElementsByClassName("points")[0];
-let save = document.getElementsByClassName("entry-el")[0];
+let point = document.getElementById("points");
+let savef = document.getElementById("entry-el");
 
 
 function increment(){
@@ -11,6 +11,6 @@ function increment(){
 
 
 function save(){
-    save.innerText = count + " ";
+    savef.textContent += count + " - ";
     count = 0;
 }
