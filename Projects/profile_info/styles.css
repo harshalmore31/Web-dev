@@ -43,6 +43,7 @@ img {
     width: 30%;
     border-radius: calc(var(--image) * 2);
     border: 4px solid var(--text);
+    transition: ease-in-out 0.3s;
 }
 
 a {
@@ -62,6 +63,7 @@ input {
     background: none;
     border-radius: var(--image);
     font-family: var(--font);
+    transition: ease-in-out 0.3s;
 }
 
 ::placeholder {
@@ -81,4 +83,15 @@ button {
     cursor: pointer;
     font-family: var(--font);
     width: 160px;
+    cursor: pointer;
+    /* box-shadow: 2px 2px 2px red; */
+    transition: ease-in-out 0.3s;
+}
+
+button:hover, input:hover {
+    box-shadow: 2px 2px 2px lightgreen;
+}
+
+footer{
+    margin-top: 40px;
 }
