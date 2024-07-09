@@ -1,15 +1,29 @@
 body {
     color: white;
-    background-image: url("./images/galaxy.webp");
-    background-size: 100%;
-    background-size: 840px;
+    background-image: url("./images/earth.jpg");
+    background-size: cover;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
-    padding: 0px 50px 0px 50px;
+    margin: 50px auto;
+    text-shadow: 4px 4px 4px black;
 }
 
+/* .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid white;
+    max-width: 600px;
+} */
+
 #main-logo {
-    width: 100px;
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-size: 34px;
 }
 
 .btn {
@@ -22,4 +36,10 @@ body {
 .underline {
     border-bottom: 4px solid white;
 }
-   
+
+footer{
+    color: whitesmoke;
+    font-weight: bolder;
+    margin-top: 10px;
+    font-size: 20px;
+}

@@ -1,10 +1,8 @@
 ## Front-End Developer
 
 <details>
-    <summary>Web-dev Basics</summary>
+    <summary>## Projects on Web-dev</summary>
     
-## Projects on Web-dev
-
 ### Basic Project
 
 |Profile Page![Profile Info Page](./Projects/profile_info/pfi_project.png)|Google Clone front-end![Google clone front-end](./Projects/google_clone/gc_project.png)|
