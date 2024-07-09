@@ -92,3 +92,6 @@ button:hover, input:hover {
     box-shadow: 2px 2px 2px lightgreen;
 }
 
+footer{
+    margin-top: 40px;
+}
