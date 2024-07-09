@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="cont container-1">
+            <h1>People Entered : </h1>
+            <h2 class="points">0</h2>
+        </div>
+        <div class="cont container-2">
+            <div class="btn-cont">
+                <button class="btn btn-1" onclick="increment()">Increment</button>
+                <button class="btn btn-2">Save</button>
+            </div>
+            <p class="entry-el" onclick="save()">Previous Entries : </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

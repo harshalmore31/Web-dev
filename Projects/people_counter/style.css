@@ -1,0 +1,64 @@
+:root{
+    --bg: #ffc300;
+    --fontcd: #023047;
+    --card: #003566;
+ }
+
+body{
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400;
+    text-align: center;
+    color: #ffd60a;
+    background-color: #000814;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */ /* why can't we use this ? */
+    border: 1px solid #000814;
+    margin: 120px auto;
+    padding: 12px;
+    border-radius: 16px;
+    background-color: var(--card);
+    max-width: 450px;           /* it defines the max-width that a flexbox for that container can have */
+}
+
+.main:hover{
+    box-shadow: 8px 10px 20px var(--bg);
+    border: none;
+}
+
+.btn:hover{
+    box-shadow: 2px 2.5px 25px var(--bg);
+}
+
+/* .btn-cont{                  // to space buttons evenly
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+
+h1, h2, button{
+    padding: 2px;
+    margin: 8px;
+}
+
+button{
+    border-radius: 4px;
+    font-size: 16px;
+    width: 135px;
+}
+
+p{
+    font-weight: 600px;
+}
+
+.btn{
+    font-family: "Roboto Mono", monospace;
+    font-weight: 600;
+    /* padding: 5px; */
+}
+
+
+
