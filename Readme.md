@@ -1,7 +1,7 @@
 ## Front-End Developer
 
 <details>
-    <summary>## Projects on Web-dev</summary>
+    <summary>Projects on Web-dev</summary>
     
 ### Basic Project
 
