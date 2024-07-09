@@ -1,6 +1,6 @@
 .main {
     display: block;
-    padding-top: 120px;
+    padding-top: 80px;
 }
 
 .image {
@@ -72,4 +72,9 @@ input{
 .a{
     padding-right: 3px;
     padding-left: 3px;
+}
+
+footer{
+    margin-top: 180px;
+    text-align: center;
 }
