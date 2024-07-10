@@ -1,6 +1,7 @@
 body{
-    background: url(./bjg.png);
+    background: url(./bjg.webp);
     background-size: cover;
+    background-repeat:inherit;
     color: whitesmoke;
     font-family: "Black Ops One", system-ui;
     /* text-align: center; */
@@ -65,6 +66,12 @@ footer{
 
 footer p{
     font-size: 20px;
+}
+
+@media (max-width: 500px) {
+    footer p{
+        font-size: 14px;
+    }
 }
 
 .foot{
