@@ -69,8 +69,21 @@ footer p{
 }
 
 @media (max-width: 500px) {
+    .main{
+        margin: 120px auto;
+    }
+    h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    button, p, h2{
+        padding: 0 20px;
+        font-size: 25px;
+        font-weight: 400;
+    }
     footer p{
         font-size: 14px;
+        padding: 1em;
     }
 }
 
