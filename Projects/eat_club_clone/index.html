@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eat Club Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container nav-container">
+            <img src="eat_club.png" alt="Eat Club Logo" class="logo-img">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#reserve">Reserve</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <h1>Welcome to Eat Club</h1>
+        <p>Best food in town</p>
+        <div class="search-container">
+            <input type="text" placeholder="Search for your favorite dish..." class="search-bar">
+            <button class="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="pizza.png" alt="Pizza" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Pizza</h3>
+                        <p>Fresh and tasty</p>
+                        <span class="price">₹499</span>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="burger.png" alt="Gourmet Burger" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Gourmet Burger</h3>
+                        <p>Angus beef with premium toppings</p>
+                        <span class="price">₹399</span>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="pasta.png" alt="Fettuccine Alfredo" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Fettuccine Alfredo</h3>
+                        <p>Creamy sauce with parmesan</p>
+                        <span class="price">₹449</span>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="menu-card">
+                    <div class="card-image">
+                        <img src="sushi.png" alt="Sushi Platter" loading="lazy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Sushi Platter</h3>
+                        <p>Assorted fresh rolls</p>
+                        <span class="price">₹599</span>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div>
+                    <h2>About Us</h2>
+                    <p>We serve the best food in town since 2024. Visit us for an amazing dining experience.</p>
+                    <p>
+                        Getting food delivered at home is always a great idea. But the whole episode of scrolling endlessly, scanning restaurant ratings, hunting for coupon codes...now that’s not fun at all. So, here’s the smarter way out with EatClub!
+                    </p>
+                    <p>
+                        A membership program that takes you straight to a no-nonsense, curated selection of restaurants. Get unlimited savings with 30% OFF every time on all restaurants and NO extra charges on delivery, packaging or surge.
+                    </p>
+                    <p>
+                        One membership, many benefits!
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="restaurant.png" alt="Restaurant" style="width: 100%; border-radius: 12px;" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reserve" class="reservation">
+        <div class="container">
+            <h2>Reserve a Table</h2>
+            <form class="form-grid">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="date" required>
+                <input type="time" required>
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Address</h3>
+                    <p>Mumbai, India</p>
+                </div>
+                <div class="contact-info-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+91 1234567890</p>
+                </div>
+                <div class="contact-info-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>info@eatclub.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Eat Club Restaurant</p>
+    </footer>
+</body>
+</html>
