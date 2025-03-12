@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Calculator</title>
+</head>
+<body>
+
+    <table align="center" style="border-collapse: collapse;">
+        <tr>
+            <td colspan="4" align="right" style="font-size: 20px; border: 1px solid black; padding: 10px;" id="display"></td>
+        </tr>
+        <tr>
+            <td align="center" style="border: 1px solid black; padding: 10px;" onclick="clearDisplay()">C</td>
+            <td align="center" style="border: 1px solid black; padding: 10px; background-color: #EEEEEE;" onclick="appendToDisplay('/')">/</td>
+            <td style="border: none;"></td>
+            <td style="border: none;"></td>
+        </tr>
+        <tr>
+            <td align="center" style="border: 1px solid black; padding: 10px;" onclick="appendToDisplay('7')">7</td>
+            <td align="center" style="border: 1px solid black; padding: 10px;" onclick="appendToDisplay('8')">8</td>
+            <td align="center" style="border: 1px solid black; padding: 10px;" oncl</tr>ick="appendToDisplay('9')">9</td>
+            <td align="center" style="border: 1px solid black; padding: 10px; background-color: #EEEEEE;" onclick="appendToDisplay('*')">*</td>
+        </tr>
+        <tr>
+            <td align="center" style="border: 1px solid black; padding: 10px;" onclick="appendToDisplay('4')">4</td>
+            <td align="center" style="border: 1px solid black; padding: 10px;" onclick="appendToDisplay('5')">5</td>
+            <td align="center" style="border: 1px solid black; padding: 10px;" onclick="appendToDisplay('6')">6</td>
+            <td align="center" style="border: 1px solid black; padding: 10px; background-color: #EEEEEE;" onclick="appendToDisplay('-')">-</td>
+        </tr>
+        <tr>
+            <td align="center" style="border: 1px solid black; padding: 10px;" onclick="appendToDisplay('1')">1</td>
+            <td align="center" style="border: 1px solid black; padding: 10px;" onclick="appendToDisplay('2')">2</td>
+            <td align="center" style="border: 1px solid black; padding: 10px;" onclick="appendToDisplay('3')">3</td>
+            <td align="center" style="border: 1px solid black; padding: 10px; background-color: #EEEEEE;" onclick="appendToDisplay('+')">+</td>
+        </tr>
+        <tr>
+            <td align="center" style="border: 1px solid black; padding: 10px;" onclick="appendToDisplay('.')">.</td>
+            <td align="center" style="border: 1px solid black; padding: 10px;" onclick="appendToDisplay('0')">0</td>
+            <td colspan="2" align="center" style="border: 1px solid black; padding: 10px; background-color: #4CAF50; color: white;" onclick="calculate()">=</td>
+        </tr>
+    </table>
+
+    <script>
+        let display = document.getElementById('display');
+
+        function appendToDisplay(value) {
+            display.textContent += value;
+        }
+
+        function clearDisplay() {
+            display.textContent = '';
+        }
+
+        function calculate() {
+            try {
+                display.textContent = eval(display.textContent);
+            } catch (error) {
+                display.textContent = 'Error';
+            }
+        }
+    </script>
+
+</body>
+</html>
